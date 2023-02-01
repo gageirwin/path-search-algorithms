@@ -114,9 +114,8 @@ class Maze:
                             grid[ny][nx].change_type(TileType.SEARCHED)
                         heapq.heappush(heap, (cost + 1, (nx, ny)))
                         parents[(nx, ny)] = curr
-                        self.draw()
-                        pygame.time.wait(10)
-                        pygame.event.pump()
+            self.draw()
+            pygame.event.pump()
             pygame.display.update() 
         return None
 
