@@ -16,3 +16,9 @@ To install Pygame, use the following pip command:
 ```bash
 pip install pygame
 ```
+## Screenshots
+Here are some screenshots of the program in action:
+
+![](/screenshots/a_star.jpg?raw=true "A*")
+
+![](/screenshots/a_star_2.jpg?raw=true "A*")
