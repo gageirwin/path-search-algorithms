@@ -1,6 +1,6 @@
 import pygame
-from settings import *
-from tiles import Wall, Empty, Player, Goal
+from src.settings import *
+from src.tiles import Wall, Empty, Player, Goal
 import heapq
 
 class Maze:

@@ -1,6 +1,6 @@
 import pygame, sys
-from settings import *
-from game import Maze
+from src.settings import *
+from src.game import Maze
 
 class Window:
 
