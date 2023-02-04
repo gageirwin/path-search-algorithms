@@ -1,7 +1,7 @@
 import pygame
 from src.settings import *
 from src.tile import *
-from src.algorithms import a_star, Dijkstra
+from src.algorithms import a_star, Dijkstra, breadth_first_search, depth_first_search, greedy_best_first_search
 
 class Maze:
 
@@ -57,18 +57,36 @@ class Maze:
 
     def input(self):
         keys = pygame.key.get_pressed()
-        if keys[pygame.K_a]:
+        if keys[pygame.K_1]:
             if self.key_pressed == False:
                 self.key_pressed = True
                 if self.start and self.end:
                     self.clear_search()
                     a_star(self.maze, self.start, self.end, self.draw)
-        elif keys[pygame.K_d]:
+        elif keys[pygame.K_2]:
             if self.key_pressed == False:
                 self.key_pressed = True
                 if self.start and self.end:
                     self.clear_search()
                     Dijkstra(self.maze, self.start, self.end, self.draw)
+        elif keys[pygame.K_3]:
+            if self.key_pressed == False:
+                self.key_pressed = True
+                if self.start and self.end:
+                    self.clear_search()
+                    breadth_first_search(self.maze, self.start, self.end, self.draw)
+        elif keys[pygame.K_4]:
+            if self.key_pressed == False:
+                self.key_pressed = True
+                if self.start and self.end:
+                    self.clear_search()
+                    depth_first_search(self.maze, self.start, self.end, self.draw)
+        elif keys[pygame.K_5]:
+            if self.key_pressed == False:
+                self.key_pressed = True
+                if self.start and self.end:
+                    self.clear_search()
+                    greedy_best_first_search(self.maze, self.start, self.end, self.draw)
         elif keys[pygame.K_c]:
             if self.key_pressed == False:
                 self.key_pressed = True
