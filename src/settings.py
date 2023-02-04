@@ -1,4 +1,4 @@
-WIDTH = 1400
+WIDTH = 800
 HEIGHT = 800
 FPS = 60
 TITLE = 'Maze Solver'
