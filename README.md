@@ -4,8 +4,11 @@ This project allows users to visualize different path search algorithms such as 
 - Left Mouse Button: Place/Remove Wall
 - Right Mouse Button: Place End
 - Middle Mouse Button: Place Start
-- Key "d": Search Maze using Dijkstra
-- Key "a": Search Maze using A*
+- Key "1": Search Maze using A*
+- Key "2": Search Maze using Dijkstra
+- Key "3": Search Maze using Breadth First Search
+- Key "4": Search Maze using Depth First Search
+- Key "5": Search Maze using Greedy Best First Search
 - Key "c": Clear Searched Path
 - Key "r": Reset Maze
 ## Usage
