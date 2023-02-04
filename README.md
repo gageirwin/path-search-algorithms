@@ -1,5 +1,5 @@
-# Visualizing Path Search Algorithms with Pygame
-This project allows users to visualize different path search algorithms such as A* on a 2D grid, using the Pygame library.
+# Visualizing Path Finding Algorithms with Pygame
+This project allows users to visualize different path finding algorithms on a 2D grid, using the Pygame library.
 ## Controls 
 - Left Mouse Button: Place/Remove Wall
 - Right Mouse Button: Place End
