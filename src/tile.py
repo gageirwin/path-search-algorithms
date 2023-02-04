@@ -22,6 +22,12 @@ class Tile:
         self.mouse_1_click = False
         self.mouse_2_click = False
 
+    def flip_type(self, type:TileType):
+        if self.type == type:
+            self.change_type(TileType.EMPTY)
+        else:
+            self.change_type(type)
+
     def change_type(self, type:TileType):
         self.type = type
         if type == TileType.EMPTY:
