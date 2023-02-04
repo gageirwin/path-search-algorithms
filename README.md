@@ -4,8 +4,10 @@ This project allows users to visualize different path search algorithms such as 
 - Left Mouse Button: Place/Remove Wall
 - Right Mouse Button: Place/Remove End
 - Middle Mouse Button: Place/Remove Start
-- Key "a": Solve Maze using A*
-- Key "r": Clear Maze
+- Key "d": Search Maze using Dijkstra
+- Key "a": Search Maze using A*
+- Key "c": Clear Searched Path
+- Key "r": Reset Maze
 ## Usage
 To run the program, simply run the main.py file in your terminal or command prompt:
 ```bash
