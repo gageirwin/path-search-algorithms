@@ -2,8 +2,8 @@
 This project allows users to visualize different path search algorithms such as A* on a 2D grid, using the Pygame library.
 ## Controls 
 - Left Mouse Button: Place/Remove Wall
-- Right Mouse Button: Place/Remove End
-- Middle Mouse Button: Place/Remove Start
+- Right Mouse Button: Place End
+- Middle Mouse Button: Place Start
 - Key "d": Search Maze using Dijkstra
 - Key "a": Search Maze using A*
 - Key "c": Clear Searched Path
