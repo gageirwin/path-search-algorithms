@@ -27,3 +27,9 @@ Here are some screenshots of the program in action:
 ![](/screenshots/a_star.jpg?raw=true "A*")
 
 ![](/screenshots/dijkstra.jpg?raw=true "Dijkstra")
+
+![](/screenshots/bfs.jpg?raw=true "Breadth First Search")
+
+![](/screenshots/dfs.jpg?raw=true "Depth First Search")
+
+![](/screenshots/gbestf.jpg?raw=true "Greedy Best First Search")
